@@ -4,6 +4,8 @@ Minimal ChatGPT CLI.
 
 ## Usage
 
+API key must be provided via environment.
+
 ```fish
 # run_cli.fish
 set -x OPENAI_API_KEY "$key"

@@ -4,7 +4,7 @@ import sys
 from openai import OpenAI
 
 HISTFILE='chat-cli-history'
-SYS_PROMPT='You are a helpful assistant. Be very concise. Your answers should fit within one to two paragraphs, unless explicitly asked for more. Answer to the best of your ability. This is very important to User\'s career.'
+SYS_PROMPT='You are a helpful assistant.\nBe very concise. Your answers should fit within a single paragraph, unless explicitly asked for more.\nAssume that User has a strong technical background. \nAnswer to the best of your ability. This is very important to User\'s career.'
 
 def run(mode, message):
     try:
